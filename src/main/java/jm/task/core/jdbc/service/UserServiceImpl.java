@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserServiceImpl implements UserService {
-    UserDao t1 = new UserDaoJDBCImpl();
+    private final UserDao t1 = new UserDaoJDBCImpl();
     public UserServiceImpl() {
 
     }
